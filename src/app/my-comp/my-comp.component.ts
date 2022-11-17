@@ -1,4 +1,4 @@
-import { AnotherDirective } from '../another.directive.ts';
+import { AnotherDirective } from '../another.directive';
 import { Component } from '@angular/core';
 
 @Component({

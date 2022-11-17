@@ -9,7 +9,8 @@ import { Directive, Input } from '@angular/core';
       directive: BgColorDirective,
       inputs: ['bgColor']
     }
-  ]
+]
 })
 export class AnotherDirective {
+  @Input() bgColor = '';
 }
