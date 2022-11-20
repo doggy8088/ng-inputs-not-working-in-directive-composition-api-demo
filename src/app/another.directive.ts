@@ -12,5 +12,4 @@ import { Directive, Input } from '@angular/core';
 ]
 })
 export class AnotherDirective {
-  @Input() bgColor = '';
 }
